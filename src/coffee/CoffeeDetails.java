@@ -5,6 +5,7 @@ public class CoffeeDetails {
    private int coffeeTaste;
    private String coffeeName;
    double coffeePrize;
+   float coffeeQuantity;
 
 
     CoffeeDetails(double coffeePrize){  // constructor
