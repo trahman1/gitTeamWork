@@ -53,9 +53,15 @@ public class PizzaDetails {
         System.out.println("i like spicy pizza");
     }
 
+
+public void pizzaInfo(){
+    System.out.println("pizza info");
+}
+
     public void  pizzaCustomer(){
         System.out.println("Pizza customers age are 15-30years old");
     }
+
 
 
 
