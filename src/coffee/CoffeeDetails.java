@@ -6,6 +6,7 @@ public class CoffeeDetails {
    private String coffeeName;
    double coffeePrize;
    float coffeeQuantity;
+   int coffeeColor;
 
 
     CoffeeDetails(double coffeePrize){  // constructor
