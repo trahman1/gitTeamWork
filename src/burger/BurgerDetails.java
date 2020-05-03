@@ -3,8 +3,7 @@ package burger;
 public class BurgerDetails {
     private String nameOfBurger;
     private String nameTopping;
-    private double priceOfBurger;
-
+    private double priceOfTheBurger;
 
     public BurgerDetails() {
     }
@@ -18,10 +17,10 @@ public class BurgerDetails {
         this.nameTopping = nameTopping;
     }
 
-    public BurgerDetails(String nameOfBurger, String nameTopping, double priceOfBurger) {
+    public BurgerDetails(String nameOfBurger, String nameTopping, double priceOfTheBurger) {
         this.nameOfBurger = nameOfBurger;
         this.nameTopping = nameTopping;
-        this.priceOfBurger = priceOfBurger;
+        this.priceOfTheBurger = priceOfTheBurger;
     }
 
     public String getNameOfBurger() {
@@ -40,12 +39,12 @@ public class BurgerDetails {
         this.nameTopping = nameTopping;
     }
 
-    public double getPriceOfBurger() {
-        return priceOfBurger;
+    public double getPriceOfTheBurger() {
+        return priceOfTheBurger;
     }
 
-    public void setPriceOfBurger(double priceOfBurger) {
-        this.priceOfBurger = priceOfBurger;
+    public void setPriceOfTheBurger(double priceOfTheBurger) {
+        this.priceOfTheBurger = priceOfTheBurger;
     }
 
     public static void burgerInfo(){
