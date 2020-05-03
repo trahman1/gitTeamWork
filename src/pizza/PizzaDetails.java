@@ -53,7 +53,9 @@ public class PizzaDetails {
         System.out.println("i like spicy pizza");
     }
 
-
+public void pizzaInfo(){
+    System.out.println("pizza info");
+}
 
 
 }
